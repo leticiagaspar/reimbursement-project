@@ -1,0 +1,25 @@
+export enum Status {
+  DRAFT = "DRAFT",
+  SUBMITTED = "SUBMITTED",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  PAID = "PAID",
+  CANCELED = "CANCELED",
+}
+
+export enum Action {
+  CREATED = "CREATED",
+  UPDATED = "UPDATED",
+  SUBMITTED = "SUBMITTED",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  PAID = "PAID",
+  CANCELED = "CANCELED",
+}
+
+export enum Role {
+  EMPLOYEE = "EMPLOYEE",
+  MANAGER = "MANAGER",
+  FINANCE = "FINANCE",
+  ADMIN = "ADMIN",
+}
